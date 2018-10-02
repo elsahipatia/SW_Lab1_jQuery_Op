@@ -65,8 +65,7 @@ Result:<br/>
         calculate()
     });
     $("#cleanBtn").click(function(){
-        $("#leftOp").val("");
-        $("#rightOp").val("");
+        $("#expression").val("");
         $("#result").val("");
         $("#sadMonkey").css("display","none");
         $("#happyMonkey").css("display","none");
